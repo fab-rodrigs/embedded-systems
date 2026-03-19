@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sgraph="http://www.yakindu.org/sct/sgraph/2.0.0">
+  <sgraph:Statechart xmi:id="_rDQAQB7hEfGSE5uIfs3ZFg" specification="// Use the event driven execution model.&#xA;// Switch to cycle based behavior&#xA;// by specifying '@CycleBased(200)'.&#xA;@EventDriven&#xA;&#xA;// Use @SuperSteps(yes) to enable&#xA;// super step semantics.&#xA;@SuperSteps(no)&#xA;&#x9;&#xA;interface:&#xA;    // Entrada: Botão de solicitação &#xA;    in event btnPedestre&#xA;&#xA;    // Saídas: Semáforo Carros [cite: 16]&#xA;    var verdeCarro: boolean = false&#xA;    var amareloCarro: boolean = false&#xA;    var vermelhoCarro: boolean = false&#xA;&#xA;    // Saídas: Semáforo Pedestres &#xA;    var verdePedestre: boolean = false&#xA;    var vermelhoPedestre: boolean = false" name="HelloSC" domainID="com.yakindu.domain.scxml">
+    <regions xmi:id="_rDURsx7hEfGSE5uIfs3ZFg" name="main region"/>
+  </sgraph:Statechart>
+  <notation:Diagram xmi:id="_rDWt9x7hEfGSE5uIfs3ZFg" type="org.yakindu.sct.ui.editor.editor.StatechartDiagramEditor" element="_rDQAQB7hEfGSE5uIfs3ZFg" measurementUnit="Pixel">
+    <children xmi:id="_rDWt-B7hEfGSE5uIfs3ZFg" type="Region" element="_rDURsx7hEfGSE5uIfs3ZFg">
+      <children xsi:type="notation:DecorationNode" xmi:id="_rDWt-R7hEfGSE5uIfs3ZFg" type="RegionName">
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_rDWt-h7hEfGSE5uIfs3ZFg"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rDWt-x7hEfGSE5uIfs3ZFg"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_rDWt_B7hEfGSE5uIfs3ZFg" type="RegionCompartment" fontName="Verdana" lineColor="4210752">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rDWuHx7hEfGSE5uIfs3ZFg"/>
+      </children>
+      <styles xsi:type="notation:ShapeStyle" xmi:id="_rDWuIB7hEfGSE5uIfs3ZFg" fontName="Verdana" fillColor="16448250" lineColor="12632256"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rDWuIR7hEfGSE5uIfs3ZFg" x="205" y="10" width="624" height="232"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_rDWuIh7hEfGSE5uIfs3ZFg" type="StatechartText" fontName="Verdana" lineColor="4210752">
+      <children xsi:type="notation:DecorationNode" xmi:id="_rDWuIx7hEfGSE5uIfs3ZFg" type="StatechartName">
+        <styles xsi:type="notation:ShapeStyle" xmi:id="_rDWuJB7hEfGSE5uIfs3ZFg"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_rDWuJR7hEfGSE5uIfs3ZFg"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_rDWuJh7hEfGSE5uIfs3ZFg" type="StatechartTextExpression" fontName="Verdana" lineColor="4210752">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rDWuJx7hEfGSE5uIfs3ZFg"/>
+      </children>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_rDWuKB7hEfGSE5uIfs3ZFg" x="10" y="10" width="200" height="400"/>
+    </children>
+    <styles xsi:type="notation:BooleanValueStyle" xmi:id="_rDWuKR7hEfGSE5uIfs3ZFg" name="inlineDefinitionSection"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_rDWuKh7hEfGSE5uIfs3ZFg"/>
+  </notation:Diagram>
+</xmi:XMI>
